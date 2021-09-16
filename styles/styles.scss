@@ -30,12 +30,32 @@ header {
 }
 
 .body-container {
+    display: flex;
+
     background-color: lightblue;
     width: 1150px;
     margin: 0 auto;
     height: 100vh;
-
     main {
-        
+        background-color: lightcoral;
+        width: 765px;
+    }
+    aside {
+        background-color: lightseagreen;
+        width: 385px;
+        div{
+            background-color: purple;
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
+
+.blog-post {
+    margin: 3rem 0.7rem;
+
+    img {
+        width: 46.4rem;
+        height: 29.2rem;
     }
 }
