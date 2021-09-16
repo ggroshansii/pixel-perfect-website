@@ -1,4 +1,35 @@
-* {
-  background-color: green;
+header {
+  height: 3.8rem;
+  border: 1px solid orange;
+  background-color: #F8F8f8;
+  margin: auto;
+  font-size: 0.8rem;
+}
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1150px;
+  margin: auto;
+  height: 3.8rem;
+  background-color: lightyellow;
+}
+
+.header-container nav a {
+  text-decoration: none;
+  padding: 0.5rem 0.65rem;
+}
+
+.header-container .social i {
+  margin: 0;
+  font-size: 0.75rem;
+  padding: 0 .44rem;
 }
 /*# sourceMappingURL=styles.css.map */

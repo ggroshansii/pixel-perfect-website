@@ -1,3 +1,30 @@
-* {
-    background-color: green;
+$headerColor: #F8F8f8;
+
+header {
+
+    height: 3.8rem;
+    border: 1px solid orange;
+    background-color: $headerColor;
+    margin: auto;
+    font-size: 0.8rem;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1150px;
+    margin: auto;
+    height: 3.8rem;
+    background-color: lightyellow;
+    nav a {
+        text-decoration: none;
+        padding: 0.5rem 0.65rem;
+    }
+    .social i{
+        margin: 0;
+        font-size: 0.75rem;
+        padding: 0 .44rem;
+    }
 }
