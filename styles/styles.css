@@ -46,18 +46,15 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: lightblue;
   width: 1210px;
   margin: 0 auto;
 }
 
 .body-container main {
-  background-color: #ffe8e8;
   width: 67%;
 }
 
 .body-container aside {
-  background-color: lightsteelblue;
   width: 35%;
 }
 
@@ -149,27 +146,27 @@ aside {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border: 1px solid pink;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .bio {
   position: relative;
-  width: 22.4rem;
+  width: 22.42rem;
   margin-top: 3rem;
   background-color: #FFFFFF;
-}
-
-.bio img {
-  width: 2rem;
-  height: 2rem;
+  height: 31.8rem;
 }
 
 .bio .background-photo {
-  width: 22.4rem;
+  width: 22.42rem;
   height: 11.5rem;
+  background-size: contain;
 }
 
 .bio .headshot {
@@ -183,6 +180,7 @@ aside {
 }
 
 .bio h2 {
+  font-family: 'oswald', sans-serif;
   margin-top: 6.7rem;
   font-size: 1.2rem;
   text-align: center;
@@ -211,5 +209,49 @@ aside {
   padding: 0.5rem;
   border-radius: 1rem;
   margin: 0 0.3rem;
+}
+
+.popular-posts {
+  margin-top: 2.4rem;
+  width: 22.42rem;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.popular-posts h2 {
+  margin-top: 2rem;
+  margin-bottom: 1.9rem;
+  font-size: 1.25rem;
+  font-family: 'oswald';
+}
+
+.popular-posts div:nth-child(n + 3) {
+  border-top: 1px solid hotpink;
+}
+
+.popular-posts div:nth-child(n + 3) img {
+  margin-top: 1.25rem;
+}
+
+.popular-posts .post {
+  margin: 0rem 1.9rem;
+}
+
+.popular-posts .post img {
+  width: 18.7rem;
+  height: 12.5rem;
+}
+
+.popular-posts .post h3 {
+  font-size: 0.85rem;
+  text-align: left;
+  font-family: 'oswald';
+}
+
+.popular-posts .post p {
+  text-align: left;
+  margin-bottom: 1.2rem;
+  font-size: 0.8rem;
+  font-style: italic;
 }
 /*# sourceMappingURL=styles.css.map */
