@@ -25,7 +25,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 1200px;
+  width: 1210px;
   margin: auto;
   height: 3.8rem;
   background-color: lightyellow;
@@ -47,7 +47,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   background-color: lightblue;
-  width: 1200px;
+  width: 1210px;
   margin: 0 auto;
 }
 
@@ -57,7 +57,7 @@ header {
 }
 
 .body-container aside {
-  background-color: lightseagreen;
+  background-color: lightsteelblue;
   width: 35%;
 }
 
@@ -143,5 +143,73 @@ header {
 
 .blog-post .blog-post-footer .social i:last-child {
   padding-right: 0rem;
+}
+
+aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid pink;
+}
+
+.bio {
+  position: relative;
+  width: 22.4rem;
+  margin-top: 3rem;
+  background-color: #FFFFFF;
+}
+
+.bio img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.bio .background-photo {
+  width: 22.4rem;
+  height: 11.5rem;
+}
+
+.bio .headshot {
+  position: absolute;
+  width: 10.5rem;
+  height: 10.5rem;
+  right: 5.4rem;
+  top: 6.2rem;
+  border: 8px solid white;
+  border-radius: 8rem;
+}
+
+.bio h2 {
+  margin-top: 6.7rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.bio p {
+  text-align: center;
+  margin: 1.4rem 2rem 0rem 2rem;
+  line-height: 1.5rem;
+}
+
+.bio .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1.7rem;
+  width: 100%;
+}
+
+.bio .social i {
+  border: 1px solid black;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin: 0 0.3rem;
 }
 /*# sourceMappingURL=styles.css.map */
