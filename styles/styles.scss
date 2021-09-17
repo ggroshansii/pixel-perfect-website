@@ -8,11 +8,11 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 400;
     background-color: $bodyColor;
+    height: 100vh;
 }
 
 
 header {
-
     height: 3.8rem;
     border: 1px solid orange;
     background-color: $headerColor;
@@ -42,11 +42,10 @@ header {
 
 .body-container {
     display: flex;
-
     background-color: lightblue;
     width: 1200px;
     margin: 0 auto;
-    height: 100vh;
+
     main {
         background-color: rgb(255, 232, 232);
         width: 67%;
@@ -62,10 +61,9 @@ header {
 
 .blog-post {
     background-color: $blogColor;
-    margin: 3rem 0rem;
+    margin: 3rem 0rem 3rem auto;
     border: 1px solid lightgray;
     width: 46.9rem;
-    margin-left: auto;
     img {
         display: block;
         margin-left: auto;
@@ -111,26 +109,26 @@ header {
         color: #DA5C39;
         font-weight: 700;
         letter-spacing: 1px;
-        margin:2.2rem 0rem 2.4rem 0rem;
+        margin:2.2rem 0rem 2.5rem 0rem;
     }
 
     .blog-post-footer {
         display: flex;
         justify-content: space-between;
         border-top: 1px solid lightgray;
-        margin: 0rem 2.6rem;
-
+        margin: 0rem 2.6rem 0rem 2.6rem;
+        
         p {
             color: lightgray;
             font-style: italic;
             font-size: 0.85rem;
-            margin: 1.4rem 0rem 2.7rem 0rem;
+            padding-top: 0.5rem;
         }
         .social {
-            margin: 1.4rem 0rem 2.7rem 0rem;
+
             color: pink;
             i {
-                padding: 0rem 0.39rem;
+                padding: 1.5rem 0.39rem 0rem 0rem;
                 &:last-child {
                     padding-right: 0rem;
                 }
