@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
 $headerColor: #F8F8f8;
+
+body {
+    font-family: Lato, sans-serif;
+}
+
 
 header {
 
@@ -38,24 +46,38 @@ header {
     height: 100vh;
     main {
         background-color: lightcoral;
-        width: 765px;
+        width: 67.55%;
     }
     aside {
         background-color: lightseagreen;
-        width: 385px;
+        width: 33%;
         div{
-            background-color: purple;
-            width: 100px;
-            height: 100px;
+
         }
     }
 }
 
 .blog-post {
-    margin: 3rem 0.7rem;
+    margin: 3rem 0rem;
 
     img {
-        width: 46.4rem;
+        width: 46.38rem;
         height: 29.2rem;
+        margin: 0 0.7rem;
+    }
+
+    .blog-post-main {
+        text-align: center;
+    }
+
+    h2 {
+        color: #DA5C39;
+        font-size: 0.8rem;
+    }
+    .btn {
+
+    }
+    p {
+        border-top: 1px solid lightgray;
     }
 }
