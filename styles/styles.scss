@@ -4,6 +4,8 @@
 $headerColor: #F8F8f8;
 $bodyColor: #F4F4F4;
 $blogColor: #FFFFFF;
+$greyColor: #858585;
+
 body {
     font-family: Lato, sans-serif;
     font-weight: 400;
@@ -197,10 +199,16 @@ aside {
 
     }
     div:nth-child(n + 3) {
-        border-top: 1px solid hotpink;
+        border-top: 1px solid $greyColor;
     }
     div:nth-child(n + 3) img {
         margin-top: 1.25rem;
+    }
+    div:last-child{
+        margin-bottom: 2.4rem;
+        p {
+            margin-top: 1rem;
+        }
     }
 
     .post {
@@ -221,6 +229,7 @@ aside {
             margin-bottom: 1.2rem;
             font-size: 0.8rem;
             font-style: italic;
+            color: gray;
         }
 
     }

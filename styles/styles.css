@@ -226,11 +226,19 @@ aside {
 }
 
 .popular-posts div:nth-child(n + 3) {
-  border-top: 1px solid hotpink;
+  border-top: 1px solid #858585;
 }
 
 .popular-posts div:nth-child(n + 3) img {
   margin-top: 1.25rem;
+}
+
+.popular-posts div:last-child {
+  margin-bottom: 2.4rem;
+}
+
+.popular-posts div:last-child p {
+  margin-top: 1rem;
 }
 
 .popular-posts .post {
@@ -253,5 +261,6 @@ aside {
   margin-bottom: 1.2rem;
   font-size: 0.8rem;
   font-style: italic;
+  color: gray;
 }
 /*# sourceMappingURL=styles.css.map */
