@@ -263,4 +263,54 @@ aside {
   font-style: italic;
   color: gray;
 }
+
+.latest-posts {
+  width: 22.42rem;
+  margin-top: 2.5rem;
+  background-color: #FFFFFF;
+}
+
+.latest-posts h2 {
+  text-align: center;
+  font-family: 'oswald', sans-serif;
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+
+.latest-posts div:nth-child(n + 3) {
+  border-top: 1px solid #858585;
+  padding-top: 0.4rem;
+}
+
+.latest-posts .latest-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 6.25rem;
+  margin: 0 1.8rem;
+}
+
+.latest-posts .latest-card img {
+  margin-top: 0.6rem;
+  width: 6.5rem;
+  height: 4.65rem;
+}
+
+.latest-posts .latest-card .title {
+  margin-left: 1rem;
+}
+
+.latest-posts .latest-card .title h3 {
+  font-size: 0.9rem;
+  font-family: 'oswald', sans-serif;
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.latest-posts .latest-card .title p {
+  margin-top: 0rem;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #858585;
+}
 /*# sourceMappingURL=styles.css.map */

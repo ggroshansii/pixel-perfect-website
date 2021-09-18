@@ -234,3 +234,45 @@ aside {
 
     }
 }
+
+.latest-posts {
+    width: 22.42rem;
+    margin-top: 2.5rem;
+    background-color: $blogColor;
+    
+    h2 {
+        text-align: center;
+        font-family: 'oswald', sans-serif;
+        font-size: 1.25rem;
+        margin-top: 2rem;
+    }
+    div:nth-child(n + 3) {
+        border-top: 1px solid $greyColor;
+        padding-top: 0.4rem;
+    }
+    .latest-card {
+        display: flex;
+        height: 6.25rem;
+        margin: 0 1.8rem;
+        img {
+            margin-top: 0.6rem;
+            width: 6.5rem;
+            height: 4.65rem;
+        }
+        .title {
+            margin-left: 1rem;
+        }
+        .title h3 {
+            font-size: 0.9rem;
+            font-family: 'oswald', sans-serif;
+            margin-top: 0.75rem;
+            margin-bottom: 0.5rem;
+        }
+        .title p {
+            margin-top: 0rem;
+            font-size: 0.9rem;
+            font-style: italic;
+            color: $greyColor;
+        }
+}
+}
