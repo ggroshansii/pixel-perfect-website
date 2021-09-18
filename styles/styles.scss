@@ -15,10 +15,10 @@ body {
 
 header {
     height: 3.8rem;
-    border: 1px solid orange;
     background-color: $headerColor;
     margin: auto;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    font-family: 'lato', sans-serif;
 }
 
 .header-container {
@@ -28,10 +28,22 @@ header {
     width: 1210px;
     margin: auto;
     height: 3.8rem;
-    background-color: lightyellow;
+    nav {
+        margin-top: 0.1rem;
+        a:first-child {
+            margin-left: 2rem;
+        }
+    }
     nav a {
+        margin-left: 0.05rem;
         text-decoration: none;
         padding: 0.5rem 0.65rem;
+        font-weight: 700;
+        letter-spacing: 0.9px;
+        color: black;
+        i {
+            margin-left: 0.15rem;
+        }
     }
     .social i {
         margin: 0;
@@ -339,9 +351,12 @@ footer {
             top:1.7rem;
         }
     }
+    a {
+        align-self: start;
+    }
     button {
         font-size: 1.1rem;
-        align-self: start;
+
         width: 2.35rem;
         height: 2.325rem;
         margin-right: 1.7rem;
@@ -349,5 +364,10 @@ footer {
         color: $greyColor;
         border: none;
         border-radius: 0.1rem;
+    }
+
+    button:hover {
+        background-color: rgb(207, 98, 98);
+        color: white;
     }
 }

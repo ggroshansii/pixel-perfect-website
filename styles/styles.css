@@ -9,10 +9,10 @@ body {
 
 header {
   height: 3.8rem;
-  border: 1px solid orange;
   background-color: #f8f8f8;
   margin: auto;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  font-family: 'lato', sans-serif;
 }
 
 .header-container {
@@ -28,12 +28,27 @@ header {
   width: 1210px;
   margin: auto;
   height: 3.8rem;
-  background-color: lightyellow;
+}
+
+.header-container nav {
+  margin-top: 0.1rem;
+}
+
+.header-container nav a:first-child {
+  margin-left: 2rem;
 }
 
 .header-container nav a {
+  margin-left: 0.05rem;
   text-decoration: none;
   padding: 0.5rem 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  color: black;
+}
+
+.header-container nav a i {
+  margin-left: 0.15rem;
 }
 
 .header-container .social i {
@@ -412,11 +427,14 @@ footer .photo-row img {
   top: 1.7rem;
 }
 
-.footer-bottom button {
-  font-size: 1.1rem;
+.footer-bottom a {
   -ms-flex-item-align: start;
       -ms-grid-row-align: start;
       align-self: start;
+}
+
+.footer-bottom button {
+  font-size: 1.1rem;
   width: 2.35rem;
   height: 2.325rem;
   margin-right: 1.7rem;
@@ -424,5 +442,10 @@ footer .photo-row img {
   color: #858585;
   border: none;
   border-radius: 0.1rem;
+}
+
+.footer-bottom button:hover {
+  background-color: #cf6262;
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */
