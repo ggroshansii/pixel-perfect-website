@@ -282,6 +282,10 @@ aside {
   padding-top: 0.4rem;
 }
 
+.latest-posts div:last-child {
+  padding-bottom: 1.25rem;
+}
+
 .latest-posts .latest-card {
   display: -webkit-box;
   display: -ms-flexbox;

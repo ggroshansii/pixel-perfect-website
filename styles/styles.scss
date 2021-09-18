@@ -250,6 +250,9 @@ aside {
         border-top: 1px solid $greyColor;
         padding-top: 0.4rem;
     }
+    div:last-child {
+        padding-bottom: 1.25rem;
+    }
     .latest-card {
         display: flex;
         height: 6.25rem;
