@@ -445,6 +445,16 @@ aside {
   height: 150px;
   margin: 0.28rem;
   background-size: auto;
+  -webkit-transition: border-radius 2.5s, -webkit-transform 1s;
+  transition: border-radius 2.5s, -webkit-transform 1s;
+  transition: transform 1s, border-radius 2.5s;
+  transition: transform 1s, border-radius 2.5s, -webkit-transform 1s;
+}
+
+.instagram-card .insta-photos img:hover {
+  -webkit-transform: translateY(0.25rem);
+          transform: translateY(0.25rem);
+  border-radius: 15%;
 }
 
 footer {

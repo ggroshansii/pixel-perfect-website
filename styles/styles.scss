@@ -369,6 +369,11 @@ aside {
         height: 150px;
         margin: 0.28rem;
         background-size:auto;
+        transition: transform 1s, border-radius 2.5s;
+    }
+    .insta-photos img:hover {
+        transform: translateY(0.25rem);
+        border-radius: 15%;
     }
 }
 
