@@ -46,6 +46,10 @@ header {
             margin-left: 0.15rem;
         }
     }
+
+    nav a:hover {
+        color: $btnColor;
+    }
     .social i {
         color: $greyColor;
         font-size: 0.82rem;

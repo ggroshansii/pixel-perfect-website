@@ -51,6 +51,10 @@ header {
   margin-left: 0.15rem;
 }
 
+.header-container nav a:hover {
+  color: #da5c39;
+}
+
 .header-container .social i {
   color: #b8b8b8;
   font-size: 0.82rem;
