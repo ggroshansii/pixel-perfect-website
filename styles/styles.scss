@@ -73,6 +73,7 @@ header {
     }
     .social i:hover {
         color: black;
+        cursor: pointer;
     }
 }
 
@@ -178,6 +179,7 @@ header {
             }
             i:hover {
                 color: black;
+                cursor: pointer;
             }
         }
     }
@@ -281,6 +283,10 @@ aside {
             text-align: left;
             font-family: "oswald";
         }
+        h3:hover {
+            color: $btnColor;
+            cursor: pointer;
+        }
         p {
             text-align: left;
             margin-bottom: 1.2rem;
@@ -288,6 +294,7 @@ aside {
             font-style: italic;
             color: gray;
         }
+
     }
 }
 
@@ -421,5 +428,6 @@ footer {
     button:hover {
         background-color: rgb(207, 98, 98);
         color: white;
+        cursor: pointer;
     }
 }

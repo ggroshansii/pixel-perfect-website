@@ -83,6 +83,7 @@ header {
 
 .header-container .social i:hover {
   color: black;
+  cursor: pointer;
 }
 
 .body-container {
@@ -206,6 +207,7 @@ header {
 
 .blog-post .blog-post-footer .social i:hover {
   color: black;
+  cursor: pointer;
 }
 
 aside {
@@ -337,6 +339,11 @@ aside {
   font-size: 0.85rem;
   text-align: left;
   font-family: "oswald";
+}
+
+.popular-posts .post h3:hover {
+  color: #da5c39;
+  cursor: pointer;
 }
 
 .popular-posts .post p {
@@ -515,5 +522,6 @@ footer .photo-row img {
 .footer-bottom button:hover {
   background-color: #cf6262;
   color: white;
+  cursor: pointer;
 }
 /*# sourceMappingURL=styles.css.map */
