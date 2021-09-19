@@ -401,6 +401,11 @@ aside {
   margin-bottom: 0.5rem;
 }
 
+.latest-posts .latest-card .title h3:hover {
+  color: #da5c39;
+  cursor: pointer;
+}
+
 .latest-posts .latest-card .title p {
   margin-top: 0rem;
   font-size: 0.9rem;

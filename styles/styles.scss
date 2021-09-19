@@ -334,6 +334,10 @@ aside {
             margin-top: 0.75rem;
             margin-bottom: 0.5rem;
         }
+        .title h3:hover{
+            color: $btnColor;
+            cursor: pointer;
+        }
         .title p {
             margin-top: 0rem;
             font-size: 0.9rem;
