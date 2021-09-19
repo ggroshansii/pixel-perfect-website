@@ -152,6 +152,11 @@ header {
   margin: 2.2rem 0rem 2.5rem 0rem;
 }
 
+.blog-post .btn:hover {
+  background-color: #da5c39;
+  color: white;
+}
+
 .blog-post .blog-post-footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -171,15 +176,32 @@ header {
 }
 
 .blog-post .blog-post-footer .social {
-  color: pink;
+  font-size: 1.02rem;
+  color: #b8b8b8;
 }
 
 .blog-post .blog-post-footer .social i {
-  padding: 1.5rem 0.39rem 0rem 0rem;
+  margin-top: 1.5rem;
 }
 
-.blog-post .blog-post-footer .social i:last-child {
-  padding-right: 0rem;
+.blog-post .blog-post-footer .social i:nth-child(4) {
+  margin-right: 0.75rem;
+}
+
+.blog-post .blog-post-footer .social i:nth-child(3) {
+  margin-right: 0.78rem;
+}
+
+.blog-post .blog-post-footer .social i:nth-child(2) {
+  margin-right: 0.78rem;
+}
+
+.blog-post .blog-post-footer .social i:nth-child(1) {
+  margin-right: 0.78rem;
+}
+
+.blog-post .blog-post-footer .social i:hover {
+  color: black;
 }
 
 aside {

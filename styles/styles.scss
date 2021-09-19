@@ -5,6 +5,7 @@ $headerColor: #f8f8f8;
 $bodyColor: #f4f4f4;
 $blogColor: #ffffff;
 $greyColor: #b8b8b8;
+$btnColor: #da5c39;
 
 body {
     font-family: Lato, sans-serif;
@@ -130,11 +131,15 @@ header {
         padding: 0.7rem 1.1rem;
         font-size: 0.75rem;
         cursor: pointer;
-        border-color: #da5c39;
-        color: #da5c39;
+        border-color: $btnColor;
+        color: $btnColor;
         font-weight: 700;
         letter-spacing: 1px;
         margin: 2.2rem 0rem 2.5rem 0rem;
+    }
+    .btn:hover {
+        background-color: $btnColor;
+        color: white;
     }
 
     .blog-post-footer {
@@ -150,12 +155,25 @@ header {
             padding-top: 0.5rem;
         }
         .social {
-            color: pink;
+            font-size: 1.02rem;
+            color: $greyColor;
             i {
-                padding: 1.5rem 0.39rem 0rem 0rem;
-                &:last-child {
-                    padding-right: 0rem;
+                margin-top: 1.5rem;
+                &:nth-child(4) {
+                    margin-right: 0.75rem;
                 }
+                &:nth-child(3) {
+                    margin-right: 0.78rem;
+                }
+                &:nth-child(2) {
+                    margin-right: 0.78rem;
+                }
+                &:nth-child(1) {
+                    margin-right: 0.78rem;
+                }
+            }
+            i:hover {
+                color: black;
             }
         }
     }
