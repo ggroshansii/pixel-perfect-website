@@ -80,6 +80,7 @@ header {
         width: 67%;
     }
     aside {
+        margin-top: 0.15rem;
         width: 35%;
     }
 }
@@ -200,14 +201,24 @@ aside {
     .social {
         display: flex;
         justify-content: center;
-        margin-top: 1.7rem;
-        width: 100%;
+        margin-top: 1.5rem;
+        margin-right: 10rem;
+        width: 97%;
+        color: $greyColor;
         i {
-            border: 1px solid black;
-            font-size: 0.7rem;
-            padding: 0.5rem;
-            border-radius: 1rem;
-            margin: 0 0.3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid $greyColor;
+            font-size: 0.8rem;
+            width: 1.75rem;
+            height: 1.75rem;
+            border-radius: 50%;
+            margin: 0 0.25rem;
+        }
+        i:hover {
+            background-color: black;
+            color: white;
         }
     }
 }

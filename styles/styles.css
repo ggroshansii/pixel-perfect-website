@@ -94,6 +94,7 @@ header {
 }
 
 .body-container aside {
+  margin-top: 0.15rem;
   width: 35%;
 }
 
@@ -238,16 +239,33 @@ aside {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 1.7rem;
-  width: 100%;
+  margin-top: 1.5rem;
+  margin-right: 10rem;
+  width: 97%;
+  color: #b8b8b8;
 }
 
 .bio .social i {
-  border: 1px solid black;
-  font-size: 0.7rem;
-  padding: 0.5rem;
-  border-radius: 1rem;
-  margin: 0 0.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #b8b8b8;
+  font-size: 0.8rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  margin: 0 0.25rem;
+}
+
+.bio .social i:hover {
+  background-color: black;
+  color: white;
 }
 
 .popular-posts {
